@@ -1,46 +1,56 @@
-# AI-Based Vulnerability Detection
+# FitMeal AI - Machine Learning
 
-## Project Overview
-This project aims to develop a Machine Learning-based system to identify potential security vulnerabilities in AI-generated code.
+FitMeal AI is a Machine Learning project designed to analyze users' nutritional intake and physical activity, classify daily energy balance, and generate personalized nutrition and fitness recommendations.
 
-The system analyzes source code and applies machine learning techniques to classify code samples based on their security characteristics.
+## Features
 
-## Objectives
-- Detect potential vulnerabilities in source code.
-- Analyze Python and JavaScript code.
-- Apply Machine Learning techniques for vulnerability classification.
-- Generate security analysis reports.
+- Daily nutritional intake analysis
+- Physical activity and calorie expenditure analysis
+- Energy balance classification (Surplus, Deficit, Balanced)
+- Machine Learning-based energy balance prediction
+- TDEE (Total Daily Energy Expenditure) calculation
+- Personalized meal recommendations
+- Exercise recommendations
+- Weekly meal plan generation
 
-## Technologies
+## Machine Learning Models
+
+- Random Forest
+- CatBoost
+- LightGBM
+
+## Technologies Used
+
 - Python
 - Google Colab
-- Pandas & NumPy
+- Pandas
+- NumPy
 - Scikit-learn
-- Machine Learning
-- Cybersecurity
+- CatBoost
+- LightGBM
+- Matplotlib
+- Joblib
+- RapidFuzz
 
 ## Project Structure
-- `notebooks/`: Model development and experiments.
-- `src/`: Data preprocessing and model training.
-- `models/`: Trained machine learning models.
-- `reports/`: Evaluation results and security reports.
 
-## Methodology
-1. Dataset collection.
-2. Data preprocessing.
-3. Feature extraction.
-4. Model training.
-5. Model evaluation.
-6. Vulnerability classification.
+- notebooks/: Machine Learning development and experiments
+- datasets/: Nutritional, recipes, fitness, and exercise datasets
+- models/: Trained Machine Learning models
+- reports/: Model evaluation results and analysis
+- README.md: Project documentation
 
-## Project Status
-In Development.
+## Model Evaluation
 
-## Future Improvements
-- Support additional programming languages.
-- Improve model accuracy.
-- Integrate static code analysis.
-- Develop automated security reporting.
+- Macro F1-Score
+- Balanced Accuracy
+- Classification Report
+- Confusion Matrix
+
+## Security & Data Note
+
+Dataset files and trained model files are not included in the repository. Required datasets must be provided separately to run the notebook.
 
 ## Author
-Computer Science Graduate | AI & Machine Learning Enthusiast
+
+RaefJA
